@@ -496,14 +496,16 @@
                                 </svg>
                             </div>
                         </div>
-                        <label for="user-comment" class="modal-label">Comment</label>
-                        <textarea 
-                        class="modal-textarea"
-                        name="user-comment" 
-                        id="user-comment" 
-                        rows="5"
-                        placeholder="Text input"
-                        ></textarea>
+                        <div class="comment-block">
+                            <label for="user-comment" class="modal-label">Comment</label>
+                            <textarea 
+                            class="modal-textarea"
+                            name="user-comment" 
+                            id="user-comment" 
+                            rows="5"
+                            placeholder="Text input"
+                            ></textarea>
+                        </div>
                     </form>
                     <div class="check-block">
                         <input 
@@ -513,7 +515,18 @@
                         value="true"
                         class="modal-check is-hidden"
                         />
-                        <label for="user-privacy">I accept the terms and conditions of the <a href="">Privacy Policy</a></label>
+                        <label 
+                        for="user-privacy"
+                        class="check-text"
+                        <span class="check-icon">
+                            <svg class="check-icon-item" width="10" height="8">
+                                <use href="./images/icons.svg#icon-default"></use>
+                            </svg>
+                            <svg class="check-icon-item" width="10" height="8">
+                                <use href="./images/icons.svg#icon-click"></use>
+                            </svg>
+                        </span>
+                        I accept the terms and conditions of the <a href="">Privacy Policy</a></label>
                     </div>
 
                     <p></p>

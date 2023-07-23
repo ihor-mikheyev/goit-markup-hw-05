@@ -754,6 +754,9 @@ img{
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 }
+.comment-block{
+    margin-bottom: 16px;
+}
 
 .modal-textarea{
     width: 100%;
@@ -768,7 +771,7 @@ img{
     resize: none;
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     padding: 8px 16px;
-    margin-bottom: 16px;
+    
 }
 
 .modal-textarea:focus {
@@ -788,11 +791,34 @@ img{
     line-height: 1.17;
     letter-spacing: 0.04em;
     color: #8E8F99;
-    
+
+}
+
+.check-text{
+    font-size: 12px;
+    line-height: 1.17;
+    letter-spacing: 0.04;
+    color: #8E8F99;
 }
 
 .check-block{
     margin-bottom: 24px;
+}
+
+.check-icon{
+    width: 16px;
+    height: 16px;
+    border: 1px solid rgba(46, 47, 66, 0.4);
+    border-radius: 2px;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    fill: transparent
+}
+
+.check-icon-item{
+    
 }
 
 .modal-icon{
