@@ -804,13 +804,12 @@ img{
     line-height: 1.17;
     letter-spacing: 0.04em;
     color: #8E8F99;
-    display: inline-flex;
-    align-items: center;
+    
     position: relative;
 }
 
-.check-text span{
-    display: flex;
+.check-box-span{
+    display: inline-flex;
     align-items: center;
     justify-content: center;
     width: 16px;
@@ -828,21 +827,16 @@ img{
 }
 
 
-.madal-check:checked + .check-text span {
+.madal-check:checked + .check-box-span {
     background-color: #404BBF;
     border: none;
     fill: #F4F4FD;
 }
 
-.madal-btn-wrap{
-    display: flex;
-    justify-content: center;
-    align-items: center;
 
-}
 .modal-btn{
     display: block;
-    justify-self: center;
+    margin: 0 auto;
     min-width: 169px;
     height: 56px;
     font-size: 16px;
