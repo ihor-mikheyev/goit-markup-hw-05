@@ -855,6 +855,11 @@ img{
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+.subcribe-block{
+    display: flex;
+    align-items: right;
+}
+
 .subscribe-text{
     margin-bottom: 16px;
     font-weight: 500;
@@ -866,10 +871,11 @@ img{
 
 .subscribe-form{
     display: flex;
+    gap: 24px;
 }
 
 .subcribe-label{
-    gap: 24px;
+    
 }
 
 .input-footer{
@@ -907,6 +913,10 @@ img{
     border-radius: 4px;
 }
 
+.subsrcribe-icon{
+    margin-left: 16px;
+    fill: #FFFFFF;
+}
 
 .is-hidden {
     opacity: 0;
