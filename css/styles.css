@@ -825,7 +825,7 @@ img{
 }
 
 
-.modal-check:checked + .check-box-span{
+.modal-check:checked + .check-text > .check-box-span{
     background-color: #404BBF;
     border: none;
     fill: #F4F4FD;
@@ -847,8 +847,8 @@ img{
     border: none;
     border-radius: 4px;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-
 }
+
 
 
 .modal-icon{
