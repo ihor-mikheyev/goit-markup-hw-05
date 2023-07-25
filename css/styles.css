@@ -569,8 +569,7 @@ img{
 .footer-block{
     display: flex;
     align-items: baseline;
-    justify-content: space-between;
-    
+        
 }
 
 .footer-logo-text{
@@ -603,7 +602,7 @@ img{
 
 .footer-social{
     margin: 0;
-    padding: 0;
+    padding-right: 80px;
 }
 
 .footer-social-link{
@@ -762,9 +761,13 @@ img{
     fill: #ffffff;
 }
 
+.element-wrap{
+    display: block;
+    padding-bottom: 8px;
+}
+
 .modal-title{
     width: 100%;
-    height: 24px;
     color: #2e2f42;
     font-size: 16px;
     font-weight: 500;
@@ -784,12 +787,11 @@ img{
     line-height: 1.17;
     letter-spacing: 0.04em;
     display: block;
-    margin-bottom: 4px;
 }
 
 .input-wrap{
     position: relative;
-    margin-bottom: 8px;
+    
 }
 
 .modal-input{
