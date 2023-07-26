@@ -782,7 +782,7 @@ img{
 }
 
 .modal-label{
-    display: inline-flex;
+    display: block;
     color: #8E8F99;
     font-size: 12px;
     line-height: 1.17;
